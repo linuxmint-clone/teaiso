@@ -4,4 +4,4 @@
 apt update --allow-insecure-repositories
 apt install linuxmint-keyring -y --allow-unauthenticated
 apt update
-apt full-upgrade -y
+apt full-upgrade -y -o Dpkg::Options::="--force-confnew" -yq --force-yes
