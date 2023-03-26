@@ -10,10 +10,9 @@ gnome-terminal
 network-manager-gnome
 network-manager
 lightdm
-slicky-greeter
+slick-greeter
 gnome-calculator
 evince
-gnome-disks
 onboard
 sticky
 gnome-screenshot
