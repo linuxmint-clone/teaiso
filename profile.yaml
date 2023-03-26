@@ -1,0 +1,16 @@
+name: mint
+distro: ubuntu
+codename: jammy
+publisher: Linux Mint <https://www.linuxmint.com>
+repository: http://archive.ubuntu.com/ubuntu
+label: MINT_TEAISO
+application_id: Linux Mint Live/Rescue Media
+airootfs_directory_pre: airootfs
+#iso_merge: iso_merge
+grub_cfg: grub.cfg
+packages:
+ - packages.x86_64
+file_permissions:
+ - /etc/shadow|0:0:400
+customize_airootfs_pre:
+ - scripts/migrate.sh
