@@ -2,3 +2,9 @@ grub-pc-bin
 grub-efi
 linux-image-generic
 mint-meta-cinnamon
+xserver-xorg
+xinit
+librsvg2-bin
+librsvg2-common
+gnome-terminal
+network-manager-gnome
