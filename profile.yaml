@@ -5,6 +5,7 @@ publisher: Linux Mint <https://www.linuxmint.com>
 repository: http://archive.ubuntu.com/ubuntu
 label: MINT_TEAISO
 application_id: Linux Mint Live/Rescue Media
+linux_args: quiet
 airootfs_directory_pre: airootfs
 #iso_merge: iso_merge
 grub_cfg: grub.cfg
@@ -14,3 +15,6 @@ file_permissions:
  - /etc/shadow|0:0:400
 customize_airootfs_pre:
  - scripts/migrate.sh
+customize_airootfs:
+ - scripts/17g.sh
+ - scripts/norecommend-drop.sh
