@@ -12,7 +12,7 @@ network-manager
 lightdm
 slick-greeter
 gnome-calculator
-evince
+xreader
 onboard
 sticky
 gnome-screenshot
@@ -23,4 +23,10 @@ gnome-mpv
 hypnotix
 rhythmbox
 xed
+simple-scan
+transmission
+gnome-system-monitor
+ubuntu-restricted-extras
 chromium
+xviewer
+blueman
