@@ -6,4 +6,5 @@ apt install linuxmint-keyring -y --allow-unauthenticated -o Dpkg::Options::="--f
 apt update
 apt full-upgrade -y -o Dpkg::Options::="--force-confnew" -yq --force-yes
 # fix networkmanager unmanaged issue
+mkdir -p /etc/NetworkManager/conf.d/
 touch /etc/NetworkManager/conf.d/10-globally-managed-devices.conf
