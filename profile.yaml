@@ -5,7 +5,7 @@ publisher: Linux Mint <https://www.linuxmint.com>
 repository: http://archive.ubuntu.com/ubuntu
 label: MINT_TEAISO
 application_id: Linux Mint Live/Rescue Media
-linux_args: quiet
+linux_args: username=mint hostname=mint user-fullname=mint noswap quiet splash
 airootfs_directory_pre: airootfs
 #iso_merge: iso_merge
 grub_cfg: grub.cfg
