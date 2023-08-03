@@ -1,6 +1,6 @@
 name: mint
 distro: ubuntu
-codename: lunar
+codename: jammy
 publisher: Linux Mint <https://www.linuxmint.com>
 repository: http://archive.ubuntu.com/ubuntu
 label: MINT_TEAISO
